@@ -27,7 +27,7 @@ body{
     align-items: center;
     background-color:#35424A;
     border-bottom: 0.5vh solid #910f86;
-    padding:1vw;
+    padding:0.6em;
     
 }
 
@@ -71,7 +71,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.7vh;
+    padding:0.6em;
 }
 
 .navbar-middle__info #email{
@@ -115,8 +115,8 @@ body{
 }
 
 .footer img{
-    width: 13%;
-    padding: .8vh;
+    width: 15%;
+    padding: 1vh;
     
 }
 
@@ -136,7 +136,7 @@ body{
     
 
     .banner h1{
-        font-size:3em;
+        font-size:2em;
     }
     
     .navbar-middle{

@@ -17,7 +17,7 @@ body{
 
 .container{
     display: grid;
-    grid-template-rows: 1fr 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
     width: 100vw;
     height: 100vh;
 }
@@ -42,13 +42,13 @@ body{
 .navbar-header__name{
     font-size: 2em;
     color: white;
-    margin-left: 0.5em;
+    
 }
 
 .navbar-pages a{
     padding: 1em;
     color: white;
-    margin-right: 1em;
+
 }
 
 .navbar-pages a:hover{
@@ -61,7 +61,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.7vh;
+    padding:0.6em;
 }
 
 .navbar-middle__info #email{
@@ -69,7 +69,7 @@ body{
 }
 .navbar-middle__info button{
     padding: 0.45vw;
-    margin-right: 1em;
+    /* margin-right: 1em; */
     background-color: rgb(224, 64, 15);
     color: white;
     border: none;
@@ -79,7 +79,7 @@ body{
 footer{
     background-color:#35424A ;
     text-align: center;
-    padding: 2.5vh;
+    padding:2vh;
     color: white;
 }
 
@@ -90,12 +90,11 @@ footer img{
 }
 
 .section{
-    
     display: flex;
-    justify-content: space-between;
-    padding:1em 2em;
+    justify-content:space-evenly;
     background-color: rgb(230, 230, 230);
     font-size: 0.9em;
+    padding: 0.7em 1em;
 }
 
 .section-content{
@@ -105,38 +104,51 @@ footer img{
     background-color: rgb(210, 210, 210);
 }
 
+.section-left h2{
+    margin-left: 0.3em;
+}
+
 .section-content h3{
     margin:1em 0em;
 }
 
 .section-content p{
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
     
 }
 
 .section-right{
-    margin-top: 1.6em;
-    width: 30%;
+    margin-top:2.2em;
+    margin-bottom: 10em;
+    width: 35%;
     padding: 1em;
     background-color:#35424A;
     color: white;
-    height:70%
+
 }
 
+
+
 .section-right input{
-    margin: 0.5em 0em;
+    margin: 0.7em 0em;
     width: 100%;
     height: 3.5vh;
     border:2px solid rgb(224, 64, 15);
 }
 
+#message{
+    margin-top: 0.7em;
+}
+
 .section-right h3{
     margin-bottom: 1em;
+    text-align: center;
 }
 
 
 
 .section-right button{
+    
     margin-top: 1em;
     width: 6vw;
     padding: 0.45vw;
@@ -206,16 +218,16 @@ textarea{
         width: 20vw;
     }
 
-    .section-left h3{
+    .section-left h2{
         text-align: center;
         margin-top: 1em;
     }
 
     .section-right{
         margin-top: 1em;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
         width: 100%;
-        height:35%;
+        /* height:35%; */
         background-color: #35424A;
 
     }
