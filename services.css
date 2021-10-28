@@ -236,11 +236,14 @@ textarea{
         margin-top: 0.3em;
         width: 12vw;
         padding: 0.45vw;
+    }
+
+    footer img{
+        width: 40%;
+        padding: 1vh;
+        
+    }
     
-
-
-
-}
 
 }
 
